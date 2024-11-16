@@ -1,0 +1,49 @@
+.carta{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    font-family: Georgia, serif;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.as-izquierda{
+    display:flex;
+    font-size: 30px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.pica-izquierda{
+    display:flex;
+    font-size: 30px; 
+    align-self: flex-start;
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+.pica{
+    display:flex;
+    font-size: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.as-derecha{
+    display:flex;
+    font-size: 30px;
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.pica-derecha{
+    display:flex;
+    font-size: 30px;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
